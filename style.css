@@ -1,5 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Griffy&display=swap")
 
 :root{
-    
+    --cor-principal:rgb(16, 164, 209) ;
+    --cor-secundária:rgb(18, 78, 216);
+    --cor-destaque:rgb(143, 15, 222) ;
+}
+
+body {
+    font-family: 'Griffy Display', sans-serif;
+}
+
+h1, h2, h5 {
+color: var(--cor-secundária);
+font-weight: 700;
+}
+
+footer a {
+    color: var(--cor-principal);
+}
+
+footer a {
+    color: var(--cor-destaque);
 }
